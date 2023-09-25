@@ -1,8 +1,9 @@
-# Shirt Store
+# Shirt Cart
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is an experimental React application aimed at confirming whether query parameters alone can serve the purpose of state and retain values after page refresh. useState() cannot retain values after refreshing the component, and it cannot update query parameters on its own. Here, you can see that React Router v6 provides a hook that can perform both the updating and retrieval of query parameters. 
 
-Currently, two official plugins are available:
+| The following code can help you understand the usage of query parameters without relying on useState() |
+|----------------------------------------------|
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+
