@@ -24,4 +24,4 @@ The 'get('key')" method provides access to the parameters object, OR is added fo
 ```
 setSearchParams() is used to update the query parameters. The parameters are properties of the object that need to be passed into the function
 
-(/assets/images/screenshot_of_the_application.png)
+![browser output](/assets/images/screenshot_of_the_application.png)
