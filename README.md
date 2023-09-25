@@ -5,5 +5,10 @@ This is an experimental React application aimed at confirming whether query para
 | The following code can help you understand the usage of query parameters without relying on useState() |
 |----------------------------------------------|
 
+```
+import { useSearchParams } from "react-router-dom";
+const [searchParams, setSearchParams] = useSearchParams();
+
+```
 
 
