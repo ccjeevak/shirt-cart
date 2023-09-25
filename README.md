@@ -16,7 +16,7 @@ The useSearchParams() hook provides two methods that can be used to retrieve and
 const selectedSize = searchParams.get("size")|| "Small";
 const selectedColor = searchParams.get("color")||'red';
 ```
-The 'get('key')" method provides access to the parameters object, OR is added for handling initial state.
+The 'get('key')" method provides access to the URLSearchParams, OR is added for handling initial state.
 
 ```
 <button
